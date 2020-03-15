@@ -1,0 +1,37 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+   background: url(laptopi.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; /* Komplet keto te backgrond img gjenden tek css trikcs qe i kemi gati.*/
+}
+h1 {
+	font-size: 2rem;
+	color: #e2dbdb;
+	text-align: center;
+	transition: all 1s;
+}
+h1:hover {
+	transform: scale(1.1);
+	cursor: cell;
+}
+
+
+.btn-warning {
+	background-color: orange;
+    border-color: blue;
+}
+.btn {
+	border-radius: 200px; /* Kjo eshte per ta bere rrethor butonin.*/
+
+}
+.btn-warning:hover {
+	background-color: #ee4b08;
+	border-color: black;
+	transform: scale(1.1);
+	cursor: all;
+}
